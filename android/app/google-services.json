@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "929065568022",
+    "firebase_url": "https://evently-e8c1a.firebaseio.com",
+    "project_id": "evently-e8c1a",
+    "storage_bucket": "evently-e8c1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929065568022:android:993dab97fa21441afdf237",
+        "android_client_info": {
+          "package_name": "com.example.meetup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929065568022-rjvvan4lp3sr69284lvmgp5gc5j8g1t0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAV3mNfjn5iwt7ETc809r7LwXm_oZZxrOQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929065568022-rjvvan4lp3sr69284lvmgp5gc5j8g1t0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
