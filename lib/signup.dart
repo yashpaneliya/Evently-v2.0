@@ -246,8 +246,8 @@ class signup extends State<first_signup> {
             .createUserWithEmailAndPassword(email: email, password: password);
         await users(uid: user.user.uid)
             .addUserData(name, surname, email, number);
-        await users(uid: user.user.uid)
-            .addEventData("event2", "self", "25/12/2020", "100");
+        // await users(uid: user.user.uid)
+            // .addEventData("event2", "self", "25/12/2020", "100");
         Navigator.push(context, MaterialPageRoute(builder: (context) {
           return mainhome();
         }));
