@@ -21,8 +21,10 @@ class account_bar extends StatefulWidget {
 }
 
 class account extends State<account_bar> {
+  
   String name, email, phone, surname;
   DocumentSnapshot snapshot;
+  
   void getData() async {
     final FirebaseUser user = await FirebaseAuth.instance.currentUser();
     final String uid = user.uid.toString();
