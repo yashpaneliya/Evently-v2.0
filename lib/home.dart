@@ -126,7 +126,10 @@ class homestate extends State<home> {
                                         ename: orgEventList[index].data["name"],
                                         edesc: orgEventList[index]
                                             .data["description"],
+                                            etime:orgEventList[index].data["time"],
+                                            mode:orgEventList[index].data["mode"],
                                         edate: orgEventList[index].data["date"],
+                                        eposter: orgEventList[index].data['posterlink'],
                                         edest: orgEventList[index]
                                             .data["destination"])));
                               },
