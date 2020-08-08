@@ -34,7 +34,6 @@ class homestate extends State<mainhome> {
   final List<Widget> _children = [
     home(),
     Search(),
-    notification(),
     first_signup(),
   ];
 
@@ -49,10 +48,10 @@ class homestate extends State<mainhome> {
 
     // TODO: implement build
     return Scaffold(
-        backgroundColor: Colors.white,
+        // backgroundColor: Colors.white,
         body: _children[_currentIndex],
         bottomNavigationBar: BottomNavigationBar(
-          backgroundColor: Colors.deepOrange,
+          backgroundColor: Color(0xFFFFEFEA),
           currentIndex: _currentIndex,
           iconSize: 23,
           selectedFontSize: 12,
@@ -68,18 +67,18 @@ class homestate extends State<mainhome> {
               title: new Text('Search'),
               backgroundColor: Colors.white,
             ),
-            BottomNavigationBarItem(
-              icon: new Icon(Icons.notifications_active),
-              title: new Text('Notifications'),
-              backgroundColor: Colors.white,
-            ),
+            // BottomNavigationBarItem(
+            //   icon: new Icon(Icons.notifications_active),
+            //   title: new Text('Notifications'),
+            //   backgroundColor: Colors.white,
+            // ),
             BottomNavigationBarItem(
               icon: new Icon(Icons.message),
               title: new Text('Messages'),
               backgroundColor: Colors.white,
             ),
           ],
-          //currentIndex: _selectedIndex,
+          // currentIndex: _selectedIndex,
           selectedItemColor: Colors.deepOrange,
           unselectedItemColor: Colors.grey,
           elevation: 0.0,
