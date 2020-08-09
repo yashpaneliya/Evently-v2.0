@@ -74,7 +74,7 @@ class _orgEventState extends State<orgEvent> {
                         onPressed: () {
                           Navigator.of(context).push(MaterialPageRoute(
                               builder: (context) => orgEventDetail(
-                                
+                                mode: snapshot.data[index].data['mode'],
                                 etime: snapshot.data[index].data['time'],
                                 eposter: snapshot.data[index].data['posterlink'],
                                   efees: snapshot.data[index].data["fees"],

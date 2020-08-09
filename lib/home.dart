@@ -329,7 +329,9 @@ class homestate extends State<home> {
                           onPressed: () {
                             Navigator.of(context).push(MaterialPageRoute(
                                 builder: (context) => eventDetail(
+                                  eposter: orgEventList[index].data['posterlink'],
                                     efees: orgEventList[index].data["fees"],
+                                    mode:orgEventList[index].data['mode'],
                                     ename: orgEventList[index].data["name"],
                                     edesc:
                                         orgEventList[index].data["description"],
@@ -526,6 +528,8 @@ class homestate extends State<home> {
                             Navigator.of(context).push(MaterialPageRoute(
                                 builder: (context) => eventDetail(
                                     efees: orgEventList[index].data["fees"],
+                                    mode:orgEventList[index].data['mode'],
+                                    eposter: orgEventList[index].data['posterlink'],
                                     ename: orgEventList[index].data["name"],
                                     edesc:
                                         orgEventList[index].data["description"],
