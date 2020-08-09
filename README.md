@@ -50,4 +50,7 @@ If you login as an <b>organizer</b>:
   
   ## APK Link
     
-   - [Download APK](https://github.com/HAC-2020/PANDAVAS/blob/master/app-release.apk)
+   - [Download APK 📥](https://github.com/HAC-2020/PANDAVAS/blob/master/app-release.apk)
+   
+ ## Implemetation Video
+   - [Video ⏺️](https://drive.google.com/file/d/1igaCp1zRPzDZRRg3OX6FrV2pEteGJtQ9/view)
