@@ -47,3 +47,7 @@ If you login as an <b>organizer</b>:
     ```
     
   - Ready to go !!!
+  
+  ## APK Link
+    
+   - [Download APK](https://github.com/HAC-2020/PANDAVAS/blob/master/app-release.apk)
